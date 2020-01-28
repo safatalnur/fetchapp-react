@@ -13,3 +13,34 @@
     padding: 50px;
     border-bottom: 1px solid lightgray;
 }
+
+.SolNumber {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+.SolInput {
+    width: 400px;
+    text-align: center;
+    padding: 20px 0px;
+    border: 1px solid blue;
+    font-size: 20px;
+}
+.SolButton {
+    width: 100px;
+    text-align: center;
+    border: 1px solid blue;
+    background-color: blue;
+    padding: 20px 0px;
+    color: white;
+    font-size: 18px;
+}
+
+.GridContent {
+    display: grid;
+    grid-template-columns: repeat(4, 24%);
+    justify-content: space-around;
+    grid-gap: 10px;
+}
